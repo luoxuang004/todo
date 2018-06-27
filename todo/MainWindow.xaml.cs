@@ -26,10 +26,11 @@ namespace todo
         {
             
             a = 1;
-            MainWindow day = new MainWindow ();
+            MainWindow w = new MainWindow ();
             this.Close();
-            day.Show();
+            w.Show();
 
+            
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)//偵測視窗有沒有被關掉
